@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Poppins:wght@100;500;600;800;900&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap");
 
+.handjet{
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 /* GLOBAL CONFIG RESET */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family:"Handjet", sans-serif;
 }
-
 select:focus,
 input:focus,
 button:focus {
@@ -16,7 +21,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #5a5278;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,11 +43,11 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(124, 76, 137, 0.1), rgba(130, 102, 143, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  color: #f7ec9c;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -57,11 +62,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #65b07d;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #f894da;
 }
 
 @keyframes animate {
